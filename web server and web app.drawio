@@ -12,8 +12,8 @@
         </mxCell>
         <mxCell id="_OXdtsUzHgIdnHBHdnV9-2" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=6;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="201" y="1241" as="sourcePoint" />
-            <mxPoint x="4836" y="1241" as="targetPoint" />
+            <mxPoint x="201" y="1400" as="sourcePoint" />
+            <mxPoint x="4836" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_OXdtsUzHgIdnHBHdnV9-3" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=6;rounded=0;fontColor=#000000;labelBackgroundColor=#FFFFFF;strokeColor=#FF3333;" parent="1" edge="1">
@@ -41,7 +41,7 @@
           <mxGeometry x="440" y="1061" width="200" height="77" as="geometry" />
         </mxCell>
         <mxCell id="_OXdtsUzHgIdnHBHdnV9-8" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;tws&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;" parent="1" vertex="1">
-          <mxGeometry x="440" y="1341" width="200" height="77" as="geometry" />
+          <mxGeometry x="440" y="1420" width="200" height="77" as="geometry" />
         </mxCell>
         <mxCell id="_OXdtsUzHgIdnHBHdnV9-9" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;tomcat&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;" parent="1" vertex="1">
           <mxGeometry x="440" y="1622" width="200" height="77" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="1660" y="1115.01" width="200" height="77" as="geometry" />
         </mxCell>
         <mxCell id="_OXdtsUzHgIdnHBHdnV9-15" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;.so&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="1341" width="200" height="77" as="geometry" />
+          <mxGeometry x="1042" y="1418" width="200" height="77" as="geometry" />
         </mxCell>
         <mxCell id="_OXdtsUzHgIdnHBHdnV9-16" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;.war&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;" parent="1" vertex="1">
           <mxGeometry x="1039" y="1621" width="200" height="77" as="geometry" />
@@ -356,6 +356,61 @@
         <mxCell id="uiX8RJZPpizneUpBRx_g-40" value="执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uiX8RJZPpizneUpBRx_g-39">
           <mxGeometry x="0.3592" relative="1" as="geometry">
             <mxPoint x="164" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-41" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;spawn-fcgi&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="1236" width="454" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-42" value="多进程管理" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1269.13" width="20" height="90.75" as="geometry" />
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-43" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;子进程1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;" vertex="1" parent="1">
+          <mxGeometry x="1387" y="1256" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1407" y="1315" as="sourcePoint" />
+            <mxPoint x="1497" y="1315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-45" value="&lt;span style=&quot;font-size: 22px;&quot;&gt;子进程n&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;shadow=1;overflow=visible;" vertex="1" parent="1">
+          <mxGeometry x="1387" y="1331" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uiX8RJZPpizneUpBRx_g-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="897" y="1234" as="sourcePoint" />
+            <mxPoint x="1280" y="1299.9850000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-47" value="进程间互斥锁&lt;div&gt;获得新连接&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uiX8RJZPpizneUpBRx_g-46">
+          <mxGeometry x="0.3592" relative="1" as="geometry">
+            <mxPoint x="18" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.693;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uiX8RJZPpizneUpBRx_g-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1397" y="1286" as="sourcePoint" />
+            <mxPoint x="1279" y="1332.01975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-49" value="进程间互斥锁&lt;div&gt;获得新连接&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uiX8RJZPpizneUpBRx_g-48">
+          <mxGeometry x="0.3592" relative="1" as="geometry">
+            <mxPoint x="18" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uiX8RJZPpizneUpBRx_g-13" target="uiX8RJZPpizneUpBRx_g-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="1298" as="sourcePoint" />
+            <mxPoint x="1251" y="1296" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="1270" />
+              <mxPoint x="1210" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiX8RJZPpizneUpBRx_g-51" value="先建立连接&lt;div&gt;然后转发请求&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uiX8RJZPpizneUpBRx_g-50">
+          <mxGeometry x="0.3592" relative="1" as="geometry">
+            <mxPoint x="-154" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
